@@ -1,5 +1,5 @@
 node {
     stage('build') {
-            sh 'mvn --version'
+            sh 'echo "Hello World"'
     }
 }
