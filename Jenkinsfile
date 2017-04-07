@@ -1,7 +1,5 @@
 node {
 
-   stage 'Maven Version'
-   container('maven'){
-       sh 'mvn --version'
-   }
+   stage('hello world')
+   echo 'Hello World' 
 }
