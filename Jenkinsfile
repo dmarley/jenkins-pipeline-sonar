@@ -10,7 +10,7 @@ node('maven') {
    sh 'pwd'
 
    stage('execute navUnit')
-   sh 'gradlew'
+   sh './gradlew phantomJsTest'
 
 
 }
